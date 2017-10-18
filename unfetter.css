@@ -94,10 +94,12 @@ button, a.btn {
 }
 .divider-image {
     position: absolute;
+    width: 98%;
 }
 .divider-row1 {
     position: relative;
     top: -250px;
+    left: 0;
 }
 .divider-row2 {
     position: relative;
