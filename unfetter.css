@@ -4,7 +4,7 @@ body {
     padding-top: 5rem;
     font-family: "Roboto", sans-serif;
 }
-@media (max-width: 576px) {
+@media (max-width: 768px) {
     h1 {
         font-size: 2rem;
     }
@@ -37,6 +37,8 @@ button, a.btn, .nav-pills .nav-link {
 
 .nav-pills .nav-link {
     color: #9ac0ff;
+    border: 2px solid;
+    border-color: transparent;
 }
 .nav-pills .nav-link:hover {
     color: #007bff;
@@ -131,4 +133,8 @@ p.lead {
 .btn-aqua {
     background-color: #18baba;
     border-color: #18baba;
+}
+
+.footer p {
+    font-size: x-small;
 }
