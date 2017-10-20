@@ -33,30 +33,36 @@
             <a class="nav-link" href="./index.html">UNFETTER <span class="sr-only">(current)</span></a>
         </li>
     </ul>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
-            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+    <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#unfetterNavbar">
+        <span> </span>
+        <span> </span>
+        <span> </span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="analytics-overview.html" id="dropdown01" data-toggle="dropdown"
-                   aria-haspopup="true" aria-expanded="false">Analytic Overview</a>
-                <div class="dropdown-menu" aria-labelledby="dropdown01">
-                    <a class="dropdown-item" href="https://github.com/unfetter-analytic/unfetter">GitHub</a>
-                    <a class="dropdown-item" href="analytic-architecture.html">Architecture</a>
-                    <a class="dropdown-item" href="analytic-setup.html">Setup</a>
-                    <a class="dropdown-item" href="analytic-events.html">Generate Events</a>
+    <div class="collapse navbar-collapse" id="unfetterNavbar">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col text-center">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="analytics-overview.html">Analytic Overview</a>
+            </li>
+            <li>
+                <div class="sub-nav">
+                <a class="nav-link" href="https://github.com/unfetter-analytic/unfetter">GitHub</a>
+                        <a class="nav-link" href="analytic-architecture.html">Architecture</a>
+                        <a class="nav-link" href="analytic-setup.html">Setup</a>
+                        <a class="nav-link" href="analytic-events.html">Generate Events</a>
                 </div>
             </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="discover-overview.html" id="dropdown02" data-toggle="dropdown"
-                   aria-haspopup="true" aria-expanded="false">Discover Overview </a>
-                <div class="dropdown-menu" aria-labelledby="dropdown02">
-                    <a class="dropdown-item" href="discover-guide.html" width="800px" height="2100px">User Guide </a>
-                    <a class="dropdown-item" href="https://www.github.com/unfetter-discover/unfetter">Installation</a>
-                    <a class="dropdown-item" href="https://www.github.com/unfetter-discover/unfetter/wiki">Developer Instructions</a>
+            <li class="nav-item">
+                <a class="nav-link" href="discover-overview.html">Discover Overview </a>
+            </li>
+            <li>
+                <div class="sub-nav">
+                    <a class="nav-link" href="discover-guide.html">User Guide </a>
+                    <a class="nav-link" href="https://www.github.com/unfetter-discover/unfetter">Installation</a>
+                    <a class="nav-link" href="https://www.github.com/unfetter-discover/unfetter/wiki">Developer Instructions</a>
                 </div>
             </li>
             <li class="nav-item">
@@ -66,6 +72,9 @@
                 <a class="nav-link" href="stix.html">Using STIX 2.0</a>
             </li>
         </ul>
+    </div>
+            </div>
+        </div>
     </div>
 </nav>
 
@@ -155,15 +164,17 @@
                     more</a></p>
             </div>
         </div>
-        <div class="row">
-            <div class="col">
 
-        <ul class="nav nav-pills center-pills">
-            <li class="nav-item"><a class="nav-link active" data-toggle="pill" href="#home">SURVEY</a></li>
-            <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#menu1">REPORT OVERVIEW</a></li>
-            <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#menu2">REPORT DASHBOARD</a></li>
-            <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#menu3">REPORT DETAIL</a></li>
-        </ul>
+        <div class="row text-center my-3">
+            <div class="col mx-auto">
+                <ul class="nav nav-pills center-pills">
+                    <li class="nav-item"><a class="nav-link active" data-toggle="pill" href="#home">SURVEY</a></li>
+                    <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#menu1">REPORT OVERVIEW</a></li>
+                    <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#menu2">REPORT DASHBOARD</a></li>
+                    <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#menu3">REPORT DETAIL</a></li>
+                </ul>
+            </div>
+        </div>
 
         <div class="tab-content">
             <div id="home" class="tab-pane fade show active">
@@ -221,8 +232,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
         </div>
     </div>
 
