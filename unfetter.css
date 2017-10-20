@@ -51,12 +51,18 @@ button, a.btn {
     color: #007bff;
 }
 
-.bg-black h1, .bg-black h2, .bg-black h3, .img-bkgd h1 {
+.bg-black h1, .bg-black h2, .bg-black h3, .bg-dkgrey h1 {
     color: #2979FF;
     font-weight: 300;
 }
-.bg-blue h2 {
+.bg-blue h1, .bg-blue h2, .bg-blue h3 {
     color: #b5bff5;
+}
+.bg-aqua h1, .bg-aqua h2, .bg-aqua h3 {
+    color: #AEFDFD;
+}
+.bg-blue p, .bg-blue ul, .bg-aqua p, .bg-aqua ul, .bg-dkgrey p, .bg-dkgrey ul {
+    color: #fff;
 }
 
 p.lead {
@@ -91,10 +97,6 @@ p.lead {
 }
 .text-aqua {
     color: #18baba;
-}
-
-.bg-aqua h2 {
-    color: #AEFDFD;
 }
 
 
