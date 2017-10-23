@@ -4,17 +4,6 @@ body {
     padding-top: 5rem;
     font-family: "Roboto", sans-serif;
 }
-@media (max-width: 768px) {
-    h1 {
-        font-size: 2rem;
-    }
-    h2 {
-        font-size: 1.8rem;
-    }
-    nav.navbar {
-       padding: 0 1rem;
-    }
-}
 p, ul {
     color: #6A6A6A;
     font-weight: 400;
@@ -32,6 +21,20 @@ h1.hero {
     line-height: 4rem;
     letter-spacing: -.05rem;
     text-align: center;
+}
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.8rem;
+    }
+    nav.navbar {
+       padding: 0 1rem;
+    }
+    h1.hero {
+        font-size: 3.25rem;
+    }
 }
 button, a.btn, .nav-pills .nav-link {
     border-radius: 40px !important;
