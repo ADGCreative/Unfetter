@@ -55,7 +55,7 @@ button, a.btn, .nav-pills .nav-link {
     color: #007bff;
 }
 
-.bg-black h1, .bg-black h2, .bg-black h3, .bg-dkgrey h1 {
+.bg-black h1, .bg-black h2, .bg-black h3, .bg-black h4, .bg-dkgrey h1, .bg-dkgrey h2, .bg-dkgrey h3, .bg-dkgrey h4 {
     color: #2979FF;
     font-weight: 300;
 }
